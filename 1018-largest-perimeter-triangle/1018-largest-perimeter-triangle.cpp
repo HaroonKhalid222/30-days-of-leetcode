@@ -2,8 +2,7 @@ class Solution {
 public:
 int largestPerimeter(vector<int>& nums) {
     int n = nums.size();
-    if (n < 3) return 0;
-    
+    if (n < 3) return 0; 
     int maxPerimeter = 0;
     sort(nums.begin(), nums.end()); // Sort in ascending order
     
